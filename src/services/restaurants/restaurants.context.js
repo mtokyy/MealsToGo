@@ -1,10 +1,4 @@
-import React, {
-  useState,
-  createContext,
-  useEffect,
-  useContext,
-  useMemo,
-} from "react";
+import React, { useState, createContext, useEffect, useContext } from "react";
 
 import {
   restaurantsRequest,
