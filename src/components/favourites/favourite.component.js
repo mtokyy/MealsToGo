@@ -3,7 +3,6 @@ import { FavouritesContext } from "../../services/favourites/favourites.context"
 import { AntDesign } from "@expo/vector-icons";
 import { TouchableOpacity } from "react-native";
 import styled from "styled-components";
-import { isSearchBarAvailableForCurrentPlatform } from "react-native-screens";
 
 const FavouriteButton = styled(TouchableOpacity)`
   position: absolute;
